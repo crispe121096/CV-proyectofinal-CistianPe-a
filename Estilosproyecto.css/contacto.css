@@ -1,0 +1,111 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap);
+
+.contact{
+
+    background-color:lightskyblue ;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 30px;
+    display: grid;
+    gap: 30px;
+}
+
+.contact p,
+.contact h2,
+.contact ul{
+
+margin: 0%;
+padding: 0%;
+}
+
+.title-contact{
+    
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+    color: var(--primary-color);
+
+}
+
+.contact-title{
+
+    font-size: 20px;
+    font-weight: 500px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact-details,
+.contact-form{
+
+    display: grid;
+    gap: 15px;
+
+}
+
+.contact-details-groups,
+.contact-form-group{
+
+    display: grid;
+    gap: 5px;
+
+}
+
+.contact-form, input,
+.contact-form area{
+
+    border:none;
+    border-radius: 7px;
+    padding: 5px 10px;
+    
+}
+
+.conctact-label{
+    
+    text-transform: uppercase;
+    font-size: 20px;
+    
+    font-weight:bold;
+}
+
+.contact-text{
+    text-transform:uppercase;
+    font-size: 15px;
+    text-align:justify;
+    padding: 10px;
+
+
+}
+
+.contact-form textarea{
+
+    height: auto;
+    resize: vertical;
+}
+
+.contact-form-submit{
+
+    width: 100%;
+    height: 40px;
+
+    background-color:transparent;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+}
+
+@media (min-width:900px){
+
+    .contact{
+
+        background-color: gray;
+        max-width: 600px;
+        margin: 0 auto;
+        box-sizing: content-box;
+    }
+}
+
+
