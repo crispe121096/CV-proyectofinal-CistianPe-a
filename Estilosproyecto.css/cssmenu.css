@@ -15,7 +15,7 @@
     margin: 0 auto;
   }
   
-  /* Logo */
+   /* Logo */
   
   .logo {
     display: flex;
@@ -28,6 +28,10 @@
   .logo img {
     border-radius: 50%;
   }
+
+  .logotype {
+    display: flex;
+    justify-content: center;
   
   /* Menu */
   .menu {
@@ -56,11 +60,11 @@
     display: none;
   }
   
-  .logotype {
-    display: flex;
-    justify-content: center;
+ 
   }
   
+  /* Media Queries */
+
   @media (max-width: 950px) {
     /* Menu */
     .menu {

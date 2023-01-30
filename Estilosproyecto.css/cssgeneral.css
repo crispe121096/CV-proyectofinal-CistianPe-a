@@ -7,7 +7,7 @@
     --navbar-shallow-color:#e5e5e5;
     --menu-movile-background-color:#3A4460;
 }
-
+/* utilice un sistema de variable para cambiar color a ciertas cajas del html */
 body{
 
     font-family: 'Source Sans Pro', sans-serif;
